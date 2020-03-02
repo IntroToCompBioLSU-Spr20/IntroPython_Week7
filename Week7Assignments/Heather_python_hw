@@ -1,0 +1,8 @@
+
+a=2.2
+b=3.3
+c=a*b  	       	##### created variables	and then preformed multiplication
+
+string="this multiplied " + str(a) + " by " + str(b) + " and returned " + str(c)          ### created a string and converted the floats into strings for concatenating
+
+print(string)
