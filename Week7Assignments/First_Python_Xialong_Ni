@@ -1,0 +1,5 @@
+var1=2.13
+var2=3.1415926
+var3=var1+var2
+mystr = "This script adds " + str(var1)+ " to " + str(var2) + " and gets " + str(var3)+"."
+print(mystr)
