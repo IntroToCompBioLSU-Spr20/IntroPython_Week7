@@ -5,8 +5,7 @@ myVarvar=12.7
 #creating a variable to store a mathematical operation with my two variables
 operation=myVar*myVarvar
 #converting float to string. did this in the next step because it was unnecesary to covert my numbers here.
-#this can be done only once.
-#in next s
+#this (convert and concatenate) can be done only once.
 #str(myVar)
 #str(myVarvar)
 #str(operation)
