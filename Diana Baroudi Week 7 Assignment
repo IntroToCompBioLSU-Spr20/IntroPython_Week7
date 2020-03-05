@@ -1,0 +1,16 @@
+[dbarou3@mike2 ~]$ python
+Python 2.6.6 (r266:84292, Aug  9 2016, 06:11:56) 
+[GCC 4.4.7 20120313 (Red Hat 4.4.7-17)] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> myFloat = 4.56
+>>> myFloat
+4.5599999999999996
+>>> myFloat1 = 2.23
+>>> myFloat1
+2.23
+>>> myFloat/myFloat1
+2.0448430493273539
+>>> myStr = "This script divided 4.56 by 2.23 and got 2.04"
+>>> print (myStr)
+This script divided 4.56 by 2.23 and got 2.04
+>>> 
