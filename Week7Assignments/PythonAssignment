@@ -1,0 +1,23 @@
+python
+Python 2.6.6 (r266:84292, Aug  9 2016, 06:11:56) 
+[GCC 4.4.7 20120313 (Red Hat 4.4.7-17)] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> myFloat=3.2424256
+>>> myFloat2=10.25367
+>>> #mathematical operations with floating varibles. 
+... 
+>>> myFloat + myFloat2
+13.4960956
+>>> myFloat2 - myFloat
+7.0112443999999998
+>>> myFloat2 * myFloat
+33.246762101951994
+>>> myFloat2 / myFloat
+3.1623454983824457
+>>> #Creating a string that describes a mathematical operation.
+... 
+>>> newString = "10.25"
+>>> newString2 = "3.242"
+>>> Coolstring = "This script multiplied " + newString2 + " times " + newString + " and got 33.2305"
+>>> print(Coolstring)
+This script multiplied 3.242 times 10.25 and got 33.2305
