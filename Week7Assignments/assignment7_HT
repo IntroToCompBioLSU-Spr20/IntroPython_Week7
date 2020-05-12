@@ -1,0 +1,9 @@
+
+#!
+#created two variables to store decimal numbers and assigned decimal numbers to each variable.
+myFloat=1.1
+myFloat1=2.1
+#Performed addition with the variables.
+myFloat2=myFloat+myFloat1
+#created a string that prints out the mathematical operation(addition)don.
+print('this script adds' +str(myFloat) + 'to' + str(myFloat1) + 'to get' + str(myFloat2))
