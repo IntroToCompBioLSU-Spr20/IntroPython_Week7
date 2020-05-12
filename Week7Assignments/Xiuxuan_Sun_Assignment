@@ -1,0 +1,22 @@
+# Creates two variables to store decimal (floating point) numbers and assigns values to these variables.
+x1 = 3.6
+x2 = 6.9
+
+# Performs addition, subtraction, multiplication, and division operation with x1 and x2.
+x3 = x1 + x2
+# Creates a string that describes the mathematical operation
+str_add = "This script addition " + str(x1) + " add " + str(x2) + " and got " + str(x3) + "."
+# Prints the string describing the operation to the screen
+print(str_add)
+
+x4 = x1 - x2
+str_sub = "This script subtraction " + str(x1) + " minus " + str(x2) + " and got " + str(x4) + "."
+print(str_sub)
+
+x5 = x1 * x2
+str_mult = "This script multiplication " + str(x1) + " times " + str(x2) + " and got " + str(x5) + "."
+print(str_mult)
+
+x6 = x1/x2
+str_div = "This script division " + str(x1) + " divide " + str(x2) + " and got " + str(x6) + "."
+print(str_div)
