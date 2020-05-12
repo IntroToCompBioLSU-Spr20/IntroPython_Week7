@@ -1,0 +1,15 @@
+#!/bin/env python
+#creating two variables and assigning them as float
+myVar=23.5
+myVarvar=12.7
+#creating a variable to store a mathematical operation with my two variables
+operation=myVar*myVarvar
+#converting float to string. did this in the next step because it was unnecesary to covert my numbers here.
+#this (convert and concatenate) can be done only once.
+#str(myVar)
+#str(myVarvar)
+#str(operation)
+# printing a message explaining what I just did
+#text="Multiplying" + myVar + "by" + myVarvar "one gets" + operation
+text="Multiplying " + str(myVar) + " by " + str(myVarvar) + " one gets " + str(operation)
+print(text)
