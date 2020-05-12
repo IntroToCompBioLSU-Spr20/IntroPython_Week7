@@ -1,0 +1,6 @@
+myVar=float(10.5)
+myVar2=float(5.6)
+print(myVar)
+print(myVar2)
+sum=myVar*myVar2
+print("In multiplying " + str(myVar) + " with " + str(myVar2) + " we get " + str(sum) + ".")
