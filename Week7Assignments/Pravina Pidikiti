@@ -1,0 +1,13 @@
+#Create two varibales of type float by assigning a value to the varibales
+varA= 1.5
+varB= 1.25
+
+#Create variable varC by multiplying the values of varA and varB 
+varC=varA*varB
+
+#Create a string variable varS by changing floats to strings and use concatenatation to combine the strings
+#to say "This script multiplies 1.5 and 1.25 to get 1.875. 
+varS="This script multiplies " + str(varA) + " and " + str(varB) + " to get " + str(varC) + "."
+
+#Prints varS
+print(varS)
