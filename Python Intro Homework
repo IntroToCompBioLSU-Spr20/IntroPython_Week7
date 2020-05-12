@@ -1,0 +1,28 @@
+Python 2.6.6 (r266:84292, Aug  9 2016, 06:11:56) 
+[GCC 4.4.7 20120313 (Red Hat 4.4.7-17)] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> x = 4.00
+>>> y = 5.50
+>>> #here we have assigned values to variables 
+... 
+>>> print (x + y)
+9.5
+>>> print (x * y)
+22.0
+>>> #Above is the arithmatic involving the various values. 
+... 
+>>> x_text = "weight in kilograms:"
+>>> y_text = "falling velocity in meters per second"
+>>> #Above is assignment of variables "x" and "y" to meaningful descriptions
+... 
+>>> print(x_text, x)
+('weight in kilograms:', 4.0)
+>>> print(y_text, y)
+('falling velocity in meters per second', 5.5)
+>>> print("weight in pounds:", 2.2 * x)
+('weight in pounds:', 8.8000000000000007)
+>>> print("falling velocity in kilometers per second:", 0.001 * y)
+('falling velocity in kilometers per second:', 0.0054999999999999997)
+>>> #Looking above you can see the string being created and mathematical operations inputted to perform
+a conversion factor.
+... 
